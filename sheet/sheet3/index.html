@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My First page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="toppane">
+            <h2>Welcome to the site<br>Contact</h2>
+        </div>
+        <div class="midlepane">
+            <div class="leftpane">
+                <ul>
+                    <li><a href="">Homepage</a> </li>
+                    <li><a href="">About</a></li>
+                    <li> <a href="">Contact</a> </li>
+                </ul>
+            </div>
+            <div class="rightpane">
+                <div id="con1-1">
+                    <h1>Contact</h1>
+                </div>
+                <hr>
+                <div id="con2-1">
+                    <form class="myForm" method="get" enctype="application/x-www-form-urlencoded" action="/html/codes/html_form_handler.cfm">
+
+                        <p>
+                            <label>Name:
+                        <input type="text" name="customer_name" required>
+                        </label>
+                        </p>
+
+                        <p>
+                            <label>Tel:
+                        <input type="tel" name="phone_number">
+                        </label>
+                        </p>
+                        <p>
+                            <label>Password:
+                        <input type="password" name="phone_number">
+                        </label>
+                        </p>
+
+                        <p>
+                            <label>Email 
+                        <input type="email" name="email_address">
+                        </label>
+                        </p>
+
+                        <p>
+                            <label>Date of Birth
+                            <input type="datetime-local" name="pickup_time" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label>Pickup Place
+                            <select id="pickup_place" name="pickup_place">
+                            <option value="Egypt" selected="selected">Egypt</option>
+                            <option value="USA" >USA</option>
+                            <option value="Russia" >Russia</option>
+                            <option value="France" >France</option>
+                            </select>
+                            </label>
+                        </p>
+                        <p><label for="favcolor">favorite color:</label>
+                            <input type="color" id="favcolor" name="favcolor" value="#ff0000">
+                        </p>
+                        <p> <label for="myfile">Select a file:</label>
+                            <input type="file" id="myfile" name="myfile">
+                        </p>
+                        <fieldset>
+                            <legend>Gender:</legend>
+                            <p><label class="choice"> <input type="radio" name="taxi" required value="car"> Male </label></p>
+                            <p><label class="choice"> <input type="radio" name="taxi" required value="van">Female </label></p>
+                        </fieldset>
+                        <p>
+                            <label>Interview day:
+                            <input type="datetime-local" name="pickup_time" required>
+                            </label>
+                        </p>
+                        <p>
+                            <label for="week">Select a week:</label>
+                            <input type="week" id="week" name="week">
+                        </p>
+                        <p>
+                            <label for="appt">Select a time:</label>
+                            <input type="time" id="appt" name="appt">
+                        </p>
+                        <p>
+                            <label>Special Instructions
+                            <textarea name="comments" maxlength="500"></textarea>
+                            </label>
+                        </p>
+                        <p><button>Submit</button></p>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <div class=" bopane ">
+            <center><strong>Copyright-UNI Inst.developed by Name</strong></center>
+        </div>
+    </div>
+
+</body>
+
+</html>
+
+</html>
